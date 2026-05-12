@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 warnings.filterwarnings("ignore")
 os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
 
-import torch
-torch.classes.__path__ = []   # Fix for torch RuntimeError
 # =====================================================================
 
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
