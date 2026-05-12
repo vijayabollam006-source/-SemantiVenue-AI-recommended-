@@ -2,6 +2,7 @@ streamlit
 pymupdf
 arxiv
 sentence-transformers
+numpy==1.26.4
 chromadb==0.4.24
 langchain
 langchain-community
