@@ -2,7 +2,7 @@ streamlit
 pymupdf
 arxiv
 sentence-transformers
-chromadb
+chromadb==0.5.0
 langchain
 langchain-community
 langgraph
