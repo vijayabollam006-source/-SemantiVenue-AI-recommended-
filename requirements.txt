@@ -3,10 +3,9 @@ pymupdf
 arxiv
 sentence-transformers
 chromadb==0.6.3
-numpy==2.0.0
-langchain
-langchain-community
-langgraph
+langchain==0.3.20
+langchain-community==0.3.19
+langgraph==0.3.5
 groq
 fastapi
 uvicorn
@@ -14,4 +13,5 @@ python-multipart
 tqdm
 python-dotenv
 rank-bm25
-numpy
+numpy==1.26.4
+protobuf==3.20.3
